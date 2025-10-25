@@ -1,0 +1,14 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+docs = [
+    "mkdocs-material[imaging]>=9.6.22",
+    "sphinx-autorun>=2.0.0",
+    "sphinx-rtd-theme>=3.0.2",
+]

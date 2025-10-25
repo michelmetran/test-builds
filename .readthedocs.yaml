@@ -9,7 +9,7 @@ build:
     # Build the documentation with Material for MkDocs
     - pip install mkdocs-material
     - pip install uv
-    - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras --group docs --link-mode=copy
+    #- UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras --group docs --link-mode=copy
     - mkdocs build --site-dir $READTHEDOCS_OUTPUT/html
     # Use staticrypt to hide each page behind a password
     - npm install -g staticrypt
